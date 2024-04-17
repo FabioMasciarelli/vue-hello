@@ -8,12 +8,13 @@ createApp({
         return {
             userName: null,
             output: null,
+            image:"./img/img1.png",
         }
     },
     
     methods: {
         printName: function() {
-            output = `Ciao ${userName}! Gerry Scotti ti saluta`;
-        }
+            this.output = `Ciao ${this.userName}! Simone Bonvecchio ti saluta`;
+        },
     }
 }).mount("#app");

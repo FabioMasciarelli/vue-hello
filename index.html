@@ -13,7 +13,8 @@
         <label for="username"></label>
         <input type="text" id="username" v-model="userName" placeholder="Inserisci il tuo nome">
         <button @click="printName">Click here</button>
-        <h1>{{ userName }}</h1>
+        <h1>{{ output }}</h1>
+        <img :src="image" alt="">
     </div>
 
     <script src="./js/script.js"></script>
