@@ -10,7 +10,10 @@
     
 
     <div id="app">
-
+        <label for="username"></label>
+        <input type="text" id="username" v-model="userName" placeholder="Inserisci il tuo nome">
+        <button @click="printName">Click here</button>
+        <h1>{{ userName }}</h1>
     </div>
 
     <script src="./js/script.js"></script>
